@@ -1,12 +1,17 @@
 import express from 'express'
+import { users, products } from "./db"
 
+const PORT = 3000
 const server = express()
-const port = 3000
 
-server.get('/', (req, res) => {
-  res.json({})
+server.get('/users', (req, res) => {
+  res.json(users)
 })
 
-server.listen(port, () => {
-  console.log(`Server listening on port ${port}`)
+server.get('/products', (req, res) => {
+  res.json(products)
+})
+
+server.listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}`)
 })

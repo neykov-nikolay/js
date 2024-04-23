@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/main.ts",
   "scripts": {
+    "main": "ts-node src/main.ts",
     "server": "ts-node src/server.ts"
   },
   "author": "",

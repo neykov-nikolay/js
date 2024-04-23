@@ -1,0 +1,20 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "scripts": {
+    "server": "ts-node src/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^2.7.0"
+  }
+}

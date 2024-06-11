@@ -1,5 +1,1 @@
-export const closureUrlBuilder = (scheme = "") => {
-  return (domain = "", port = "") => {
-    return `${scheme}://${domain}:${port}`;
-  };
-};
+export const closureUrlBuilder = (scheme = "") => {};

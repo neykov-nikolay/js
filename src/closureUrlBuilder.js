@@ -3,5 +3,6 @@ export const closureUrlBuilder = (scheme = "") => {
     const url = `${scheme}://${domain}:${port}`;
     return url;
   };
+
   return innerFunction;
 };
